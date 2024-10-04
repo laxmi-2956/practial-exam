@@ -1,0 +1,326 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="skeleton.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shark Tank India</title>
+
+    <style>
+      input 
+      {
+        padding:  10px 20px;
+        margin: 10px;
+        font-weight: bold;
+        border: 2px  solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+ 
+
+     <button   style="text-align: center; font-size: 40px; margin: auto; width: 100%;  background-color: whitesmoke; border: none; padding: 10px;">CRUD FORM</button>
+
+
+     <hr>
+   
+
+     <div class="my" style="display: flex;  width: 100%; margin: auto;">
+      <div class="container" style="width: 30%; margin-left: 20%;">
+  
+        <div class="col-3">
+          <div class="columns four sidebar-one" id="sidebar-one">
+        <h4>Add Pitch</h4>
+        <input
+          type="text"
+          id="pitch-title"
+          class="u-full-width"
+          placeholder="Title"
+        />
+        <input
+          type="text"
+          id="pitch-image"
+          class="u-full-width"
+          placeholder="Image Url"
+        />
+        <input
+          type="text"
+          id="pitch-category"
+          class="u-full-width"
+          placeholder="Category"
+        />
+        <input
+          type="text"
+          id="pitch-founder"
+          class="u-full-width"
+          placeholder="Founder"
+        />
+        <input
+          type="number"
+          id="pitch-price"
+          class="u-full-width"
+          placeholder="Pitch Price"
+        />
+    
+        <button style="padding: 10px 20px; background-color: black; color: white;" id="add-pitch" class="u-full-width button button-primary">
+          Add Pitch
+        </button>
+        <hr />
+
+        <h4>update all fields of Pitch</h4>
+        <input
+          type="text"
+          id="update-pitch-id"
+          class="u-full-width"
+          placeholder="ID"
+        />
+        <input
+          type="text"
+          id="update-pitch-title"
+          class="u-full-width"
+          placeholder="Title"
+        />
+        <input
+          type="text"
+          id="update-pitch-image"
+          class="u-full-width"
+          placeholder="Image Url"
+        />
+        <input
+          type="text"
+          id="update-pitch-category"
+          class="u-full-width"
+          placeholder="Category"
+        />
+        <input
+          type="text"
+          id="update-pitch-founder"
+          class="u-full-width"
+          placeholder="Founder"
+        />
+        <input
+          type="number"
+          id="update-pitch-price"
+          class="u-full-width"
+          placeholder="Pitch Price"
+        />
+   
+        <button style="padding: 10px 20px; background-color: black; color: white; margin-top: 20px;"  id="update-pitch" class="u-full-width button button-primary">
+          Update all fields
+        </button>
+        
+
+   
+
+     
+      </div>
+        </div>
+  
+
+  
+      
+  </div>
+   
+      <div class="container-2" style="width: 50%;  margin-left: 20%;">
+   
+        <div class="data-list-wrapper" id="data-list-wrapper" style="width: 50%; ">
+      
+          <div class="card-list" style="padding-left: 30px;">
+    
+            </div>
+        </div>  
+    
+       </div>
+     </div>
+    
+
+   
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="skeleton.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>Shark Tank India</title>
+
+
+    <style>
+      input 
+      {
+        padding:  10px 20px;
+        margin: 10px;
+        font-weight: bold;
+        border: 2px  solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+ 
+    
+    <button   style="text-align: center; font-size: 40px; margin: auto; width: 100%;  background-color: whitesmoke; border: none; padding: 10px;">CRUD FORM</button>
+   
+    <div class="my" style="display: flex;  width: 100%; margin: auto;">
+      <div class="container" style="width: 30%; margin-left: 20%;">
+        <div class="row">
+          <div class="column"></div>
+        </div>
+  
+         <div class="card" style="margin-top: 10px; background-color: black; color: white;">
+          <div  class="row">
+            <div class="columns four sidebar-one" id="sidebar-one">
+              <h4 style="padding-left: 10px; padding-top: 10px; ">Add Pitch</h4>
+              <input
+                type="text"
+                id="pitch-title"
+                class="u-full-width"
+                placeholder="Title"
+              />
+              <input
+                type="text"
+                id="pitch-image"
+                class="u-full-width"
+                placeholder="Image Url" 
+              />
+              <input
+                type="text"
+                id="pitch-category"
+                class="u-full-width"
+                placeholder="Category"
+              />
+              <input
+                type="text"
+                id="pitch-founder"
+                class="u-full-width"
+                placeholder="Founder"
+              />
+              <input
+                type="number"
+                id="pitch-price"
+                class="u-full-width"
+                placeholder="Pitch Price"
+              />
+              <!-- <input
+                type="date"
+                id="pitch-year"
+                class="u-full-width"
+                placeholder="Year of foundation"
+              /> -->
+              <button id="add-pitch" class="u-full-width button button-primary" style="display: flex; margin: 20px; padding: 10px 20px; background-color: white; color: black; font-weight: bold;">
+                Add Pitch
+              </button>
+             
+    
+              <h4 style="padding-left: 10px;">update all fields of Pitch</h4>
+              <input
+                type="text"
+                id="update-pitch-id"
+                class="u-full-width"
+                placeholder="ID"
+              />
+              <input
+                type="text"
+                id="update-pitch-title"
+                class="u-full-width"
+                placeholder="Title"
+              />
+              <input
+                type="text"
+                id="update-pitch-image"
+                class="u-full-width"
+                placeholder="Image Url"
+              />
+              <input
+                type="text"
+                id="update-pitch-category"
+                class="u-full-width"
+                placeholder="Category"
+              />
+              <input
+                type="text"
+                id="update-pitch-founder"
+                class="u-full-width"
+                placeholder="Founder"
+              />
+              <input
+                type="number"
+                id="update-pitch-price"
+                class="u-full-width"
+                placeholder="Pitch Price"
+              />
+              <!-- <input
+                type="date"
+                id="update-pitch-year"
+                class="u-full-width"
+                placeholder="Year of foundation"
+              /> -->
+              <button id="update-pitch" class="u-full-width button button-primary" style="display: flex; margin: 20px; padding: 10px 20px; background-color: white; color: black; font-weight: bold;">
+                Update all fields
+              </button>
+             
+    
+              <!-- <h4>update only Price</h4>
+              <input
+                type="text"
+                id="update-price-pitch-id"
+                class="u-full-width"
+                placeholder="ID"
+              />
+              <input
+                type="number"
+                id="update-price-pitch-price"
+                class="u-full-width"
+                placeholder="Price"
+              />
+              <button
+                id="update-price-pitch"
+                class="u-full-width button button-primary"
+              >
+                Update pitch Price
+              </button> -->
+            
+    
+           
+            </div>
+    
+            <div class="columns eight main">
+              <div class="search-pitch-wrapper" id="search-pitch-wrapper">
+             
+              
+              </div>
+            
+            </div>
+          </div>
+         </div>
+      </div>
+  
+  
+      <div  class="container2" style="width: 50%;  margin-left: 20%;">
+        <div class="data-list-wrapper" id="data-list-wrapper">
+          <!-- append card-list that includes card here -->
+          <div class="card-list">
+  
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js" type="module"></script>
+  </body>
+</html> 

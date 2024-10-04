@@ -1,0 +1,36 @@
+{
+  "pitches": [
+    {
+      "id": "6",
+      "title": "Hammer",
+      "image": "https://m.media-amazon.com/images/I/61RjUgGy04L._AC_UY327_FMwebp_QL65_.jpg",
+      "category": "Electronics",
+      "founder": "Rohit Nandwani",
+      "price": "7777"
+    },
+    {
+      "id": "8478",
+      "title": "gg",
+      "image": "https://images.unsplash.com/photo-1719937051124-91c677bc58fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+      "category": "high",
+      "founder": "lett",
+      "price": "6666"
+    },
+    {
+      "id": "b1d3",
+      "title": "gscc",
+      "price": "00",
+      "founder": "lllll",
+      "category": "high",
+      "image": "https://plus.unsplash.com/premium_photo-1727437241553-8f37fe221b1f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8"
+    },
+    {
+      "id": "cb4b",
+      "title": "mobile",
+      "image": "https://images.unsplash.com/photo-1725203574073-79922f64110a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8",
+      "category": "high",
+      "founder": "lllll",
+      "price": "88888"
+    }
+  ]
+}
